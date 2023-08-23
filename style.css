@@ -1,17 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
 .squares{
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px 100px;
+    justify-content: center;
 }
 
 .square{
-    border: 1px solid black;
+    background-color: #EAEAEA;
+    border: 1px solid #333333;
 }
 
 .X{
-    background-color: red;
+    background-color: #4169E1;
 }
 
 .O{
-    background-color: yellow;
+    background-color:#DC143C;
+}
+
+.intro{
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.resetDiv{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.reset{
+    padding: 10px 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 1px solid #333333;
+    border-radius: 5px;
+}
+.reset:hover{
+    background-color: #7b7a7a;
+    color: white;
 }
